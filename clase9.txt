@@ -1,0 +1,14 @@
+CLASE 9 - MOTORES DE PLANTILLAS
+
+Podemos dinamizar el contenido del HTML desde nuestro servidor backend.
+
+Handlebars, Ejs, Pug son motores de plantillas.
+
+app.use (express.static ("./src/public")) //middleware
+Busca en la carpeta "public" para mostrar en la ruta raíz.
+Con "static" el contenido es estático.
+Con el index.html el contenido es estático, en cambio con Handlebars el contenido es dinámico => npm i express-handlebars.
+{{{ body }}} 
+
+data onwire => respondo la petición desde el backend en formato json a frontend.
+
